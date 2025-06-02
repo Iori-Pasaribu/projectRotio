@@ -1,0 +1,109 @@
+.judul {
+  font-weight: bold;
+}
+.jumbotron {
+  padding-top: 60px;
+}
+.carousel-inner img {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffdfa8ec;
+}
+
+.containerr {
+  width: 80%;
+  margin: 20px auto;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: #333333;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 3px 3px #000000;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bread-section {
+  background-image: url(gambar/Makanan.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+
+.drink-section {
+  background-image: url(gambar/Minuman.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-radius: 8px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.menu-item {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.menu-item img {
+  justify-content: left;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  color: #555;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.menu-item p {
+  color: #777;
+}
+.menu-item .price {
+  font-weight: bold;
+  color: #b06d21;
+}
+
+.kedip {
+  color: rgb(255, 198, 55);
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}

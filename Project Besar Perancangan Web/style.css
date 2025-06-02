@@ -1,0 +1,24 @@
+.gambar-bawah {
+  position: relative;
+  display: inline-block; /* Agar ukuran mengikuti gambar */
+  text-align: center;
+  width: 100%;
+}
+.gambar-bawah img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.gambar-bawah .kata {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 10px 20px;
+  color: white;
+  font-size: 24px;
+}
+.kuning {
+  color: yellow;
+}
